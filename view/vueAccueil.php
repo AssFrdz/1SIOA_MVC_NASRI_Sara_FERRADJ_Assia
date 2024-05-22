@@ -22,7 +22,7 @@
         <?php endforeach;?>
         
             <tr>
-            <td><button type="submit">Modifier</button></td>
+            <td><input type="submit" value="Modifier"></td>
             <td><a href="index.php?action=ajouter">+</a></td>
             </tr>
         

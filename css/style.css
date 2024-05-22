@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display:flex;
+    border: 3px solid grey;
+    margin: 10px;
+}
+
+a{
+    margin:15px;
+    text-decoration: none;
+    color:black;
+}
+
+input
+
+a:visited{
+    color:black;
+}
+
+table{
+    background-color: azure;
+}
+
+table th{
+    background-color: darkcyan;
+    color:white;
+    padding:10px;
+}
+
+table tr{
+    text-align: center;
+    align-items: center;
+}
+
+h1{ 
+    margin:10px;
+}
+
+.box{
+    text-align: center;
+    align-items: center;
+}
+
+form{
+    background-color: rgb(143, 143, 143);
+}
+
+a,button{
+    background-color: aliceblue;
+    padding:5px;
+    text-transform: uppercase;
+    transition:0.5s;
+}
+
+button:hover{
+    transform:scale(1.5);
+}
+

@@ -53,10 +53,15 @@ switch($action){
             modifyContact($id,$nom,$prenom,$tel,$email,$remarque);
         }
         if(isset($_POST["suppr"])){
+            include "./view/vueBandeauMenu.php";
+            include "./view/vueConfirmation.php";
+            if(isset($_POST["supprimer"])){
             deleteContact($_POST["id"]);
+            include "./view/vueBandeauMenu.php";
+            include "./view/vueAccueil.php";
         }
-        include "./view/vueBandeauMenu.php";
-        include "./view/vueAccueil.php";
+        }
+        
         break;
 
     case "rechercher":
